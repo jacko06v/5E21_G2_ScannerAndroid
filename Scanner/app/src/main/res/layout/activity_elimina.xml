@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".elimina">
+
+    <Button
+        android:id="@+id/scanElimina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scan"
+        android:translationX="400px"
+        android:translationY="1500px"
+
+        />
+
+    <RadioButton
+        android:id="@+id/pezzo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ricambio"
+        android:translationX="400px"
+        android:translationY="350px" />
+
+    <RadioButton
+        android:id="@+id/accessori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="accessori"
+        android:translationX="80px"
+        android:translationY="350px" />
+
+</RelativeLayout>
